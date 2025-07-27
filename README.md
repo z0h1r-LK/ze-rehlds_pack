@@ -25,12 +25,15 @@
 ~~Create script with Python or Bash Script to install everything with one tap~~
 
 # Tutorial:
-* Download `hlds_run` from the [Releases](/releases/latest/) page.
+* Download `hlds_run` from the [Releases](https://github.com/z0h1r-LK/ze-rehlds_pack/releases/latest) page.
 * If you have old HLDS files, delete all of them to keep the server directory empty.
 * Upload the `hlds_run` file to your server using File Manager or FTP.
 * Set permissions to `777` for `hlds_run`.
 * Start the server and wait for the installation to complete.
 * Restart the server. If it doesn't start properly, try again several times.
+
+# Credits:
+- **LeviN** - Offering a server on Pterodactyl panel.
 
 # Need Help?
 :smile: **Visit Our :**
