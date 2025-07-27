@@ -13,16 +13,30 @@
 | Reunion | 0.2.0.25 |
 | ReChecker | 2.7 |
 | ReVoice | 0.1.0.34 |
-| Hitbox Fixer | [Alpha] 2.0.3 |
+| Hitbox Fixer | \[Alpha\] 2.0.3 |
 
 ### GeoIP Module mmdb:
 - Special thanks for [@P3TERX](https://github.com/P3TERX) for GeoLite.mmdb (2025 Jul 07)
-> GeoLite2-ASN.mmdb 
+> GeoLite2-ASN.mmdb
 > GeoLite2-City.mmdb
 > GeoLite2-Country.mmdb
 
 # To do:
-Create script with Python or Bash Script to install everything with one tap
+~~Create script with Python or Bash Script to install everything with one tap~~
+
+# Tutorial:
+* Download `hlds_run` from the [Releases](/releases/latest/) page.
+* If you have old HLDS files, delete all of them to keep the server directory empty.
+* Upload the `hlds_run` file to your server using File Manager or FTP.
+* Set permissions to `777` for `hlds_run`.
+* Start the server and wait for the installation to complete.
+* Restart the server. If it doesn't start properly, try again several times.
+
+### Video:
+<video controls width="480">
+	<source src="/.videos/pterodactyl.mp4" type="video/mp4">
+	Your browser doesn't support Video Player
+</video>
 
 # Need Help?
 :smile: **Visit Our :**
