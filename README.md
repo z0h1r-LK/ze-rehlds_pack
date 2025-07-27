@@ -32,12 +32,6 @@
 * Start the server and wait for the installation to complete.
 * Restart the server. If it doesn't start properly, try again several times.
 
-### Video:
-<video controls width="480">
-	<source src="/.videos/pterodactyl.mp4" type="video/mp4">
-	Your browser doesn't support Video Player
-</video>
-
 # Need Help?
 :smile: **Visit Our :**
 * Our Forum: [Escapers-Zone.Net](https://escapers-zone.net)
