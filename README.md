@@ -29,11 +29,13 @@
 * If you have old HLDS files, delete all of them to keep the server directory empty.
 * Upload the `hlds_run` file to your server using File Manager or FTP.
 * Set permissions to `777` for `hlds_run`.
+  * Give all permissions to file RWX (Read, Write and Execute) on Owner, Group and Public.
 * Start the server and wait for the installation to complete.
 * Restart the server. If it doesn't start properly, try again several times.
 
 # Credits:
 - **LeviN** - Offering a server on Pterodactyl panel.
+- **MaHm0ud** - Offering a server on Pelican Panel.
 
 # Need Help?
 :smile: **Visit Our :**
