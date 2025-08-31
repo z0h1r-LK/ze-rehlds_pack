@@ -1,6 +1,6 @@
 #!/bin/bash
 # hlds_run.sh - ReHLDS Installation Script for Debian/Ubuntu
-# Version: 12-07-25
+# Version: 31 Aug 2025
 
 # Change script name self to avoid confusion
 if [ -f hlds_run ]; then
@@ -20,22 +20,22 @@ echo " /_____|______| |_|  \_\___|_.__/ \__,_|_|_|\__,_|  |_(_)_/\_\\";
 echo "                                                              ";
 echo "                                                              ";
 echo "ReHLDS Installation Script for Debian/Ubuntu";
-echo "Package Version: 12 Jul 2025";
+echo "Package Version: 31 Aug 2025";
 echo "Welcome to the ReHLDS installation script!"
 echo "--------------------------------------------------------------"
 
 # Download the rehlds_pack tar file
-wget https://github.com/z0h1r-LK/ze-rehlds_pack/releases/download/12-07-25/rehlds_pack-12-07-25_linux.tar -O rehlds_pack-12-07-25_linux.tar
+wget https://github.com/z0h1r-LK/ze-rehlds_pack/releases/download/31-08-25/rehlds_full.tar -O rehlds_full.tar
 
 # Extract the downloaded tar file
-if [ ! -f rehlds_pack-12-07-25_linux.tar ]; then
+if [ ! -f rehlds_full.tar ]; then
     echo "Download failed. Please check your internet connection or the URL."
     exit 1
 fi
 
 # Extract the tar file
 echo "Extracting files..."
-tar -xf rehlds_pack-12-07-25_linux.tar
+tar -xf rehlds_full.tar
 
 if [ $? -ne 0 ]; then
     echo "Extraction failed. Please check the tar file."
@@ -44,7 +44,7 @@ fi
 
 # Delete the tar file after extraction
 echo "Cleaning up..."
-rm -rf rehlds_pack-12-07-25_linux.tar
+rm -rf rehlds_full.tar
 sleep 1
 
 # Give permissions to the hlds_run.sh file
