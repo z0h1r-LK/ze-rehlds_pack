@@ -1,5 +1,5 @@
-# Re-HLDS Package – 12 Jul 2025
-- This package has been created for people who wish install [`Zombie Escape Rebuild 1.x`](https://github.com/z0h1r-LK/Zombie_Escape/) servers without the need to consume bandwith on their computers or have a slow upload speed.
+# Re-HLDS Package – 31 Aug 2025
+- This package has been created for people who wish install [`Zombie Escape Rebuild 1.x`](https://github.com/z0h1r-LK/Zombie_Escape/) servers without the need to consume bandwith on their computers or have a slow upload speed. But this script built for Ubuntu or Debian distro-based only.
 
 # Binaries Version:
 | Binary | Version |
@@ -11,6 +11,8 @@
 | PrintCenterFix | 2.0.1 |
 | ReAPI Module | 5.26.0.338 |
 | Reunion | 0.2.0.25 |
+| ReAuthCheck | 0.1.6 |
+| ReAimDetector | 0.2.2 |
 | ReChecker | 2.7 |
 | ReVoice | 0.1.0.34 |
 | Hitbox Fixer | \[Alpha\] 2.0.3 |
